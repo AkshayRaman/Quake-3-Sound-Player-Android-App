@@ -21,5 +21,5 @@ Wear off<br>
 
 Screenshots can be found at: 
 
-http://i.imgur.com/JfCm9ck.jpg
+http://i.imgur.com/JfCm9ck.jpg<br>
 http://i.imgur.com/7uw3ReH.png
