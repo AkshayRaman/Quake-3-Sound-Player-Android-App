@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F"
+    android:orientation="vertical"
+    android:padding="8dp" 
+    tools:context=".Main">
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.21"
+            android:gravity="center"
+            android:paddingBottom="10dip"
+            android:text="Quake 3 Sound Player"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+    
+    <!-- Credits -->
+	<RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FC0"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Created by Akshay"
+            android:textColor="#000"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableLayout
+            android:id="@+id/TableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- FEEDBACK -->
+            <Button
+                android:id="@+id/fx01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accuracy" />
+
+            <Button
+                android:id="@+id/fx02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Denied" />
+
+            <Button
+                android:id="@+id/fx03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Excellent" />
+
+            <Button
+                android:id="@+id/fx04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Humiliation" />
+
+            <Button
+                android:id="@+id/fx05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Impressive" />
+
+           <Button
+                android:id="@+id/fx06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perfect" />
+           
+           <!-- ITEMS -->
+           <Button
+                android:id="@+id/fx07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Haste" />
+           
+           <Button
+                android:id="@+id/fx08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Invisibility" />
+           
+           <Button
+                android:id="@+id/fx09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quad Damage" />
+           
+           <Button
+                android:id="@+id/fx10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regeneration" />
+           
+           <Button
+                android:id="@+id/fx11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wear off" />
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stop All"
+                android:visibility="gone" />
+            
+            
+          </TableLayout>
+          
+    </ScrollView>
+    
+</LinearLayout>
