@@ -5,14 +5,18 @@ This simple android app plays some of the in-game announcements.
 
 These are the sound effects included:
 
-Accuracy
-Denied
-Excellent
-Haste
-Humiliation
-Impressive
-Invisibility
-Perfect
-Quad damage
-Regeneration
-Wear off
+Accuracy<br>
+Denied<br>
+Excellent<br>
+Haste<br>
+Humiliation<br>
+Impressive<br>
+Invisibility<br>
+Perfect<br>
+Quad damage<br>
+Regeneration<br>
+Wear off<br>
+
+<br>
+
+
