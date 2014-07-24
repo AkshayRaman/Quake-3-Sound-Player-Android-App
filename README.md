@@ -19,4 +19,4 @@ Wear off<br>
 
 <br>
 
-
+A screenshot can be found at: http://i.imgur.com/7uw3ReH.png
