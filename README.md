@@ -1,23 +1,9 @@
 Quake 3 Sound Player (Android App)
 ================================================
 
-This simple android app plays some of the in-game announcements.
+This simple android app plays some of the in-game sounds.
 
-These are the sound effects included:
-
-Accuracy<br>
-Denied<br>
-Excellent<br>
-Haste<br>
-Humiliation<br>
-Impressive<br>
-Invisibility<br>
-Perfect<br>
-Quad damage<br>
-Regeneration<br>
-Wear off<br>
-
-<br>
+App includes feedback sounds, item sounds, miscellaneous sounds and weapon sounds.
 
 Screenshots can be found at: 
 
