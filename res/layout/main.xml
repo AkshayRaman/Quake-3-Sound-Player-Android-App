@@ -16,10 +16,10 @@
             android:id="@+id/ImageView02"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher" android:contentDescription="Icon"/>
+            android:src="@drawable/ic_launcher" />
 
         <TextView
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1.21"
             android:gravity="center"
@@ -32,7 +32,7 @@
             android:id="@+id/ImageView01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher" android:contentDescription="Icon"/>
+            android:src="@drawable/ic_launcher" />
     </LinearLayout>
     
     <!-- Credits -->
@@ -40,6 +40,7 @@
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:background="#FC0"
         android:gravity="center" >
 
@@ -49,7 +50,7 @@
             android:layout_margin="5dp"
             android:text="Created by Akshay"
             android:textColor="#000"
-            android:textSize="15sp" />
+            android:textSize="10sp" />
     </RelativeLayout>
 
     <ScrollView
@@ -62,23 +63,6 @@
             android:layout_height="wrap_content" >
 
             <!-- FEEDBACK -->
-            
-            <RelativeLayout
-        	android:id="@+id/feedbacklabel"
-        	android:layout_width="match_parent"
-        	android:layout_height="wrap_content"
-        	android:background="#F00"
-        	android:gravity="center" >
-        
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_margin="5dp"
-               android:text="Feedback"
-               android:textColor="#FFF"
-               android:textSize="15sp" />
-        </RelativeLayout> 
-
             <Button
                 android:id="@+id/fx01"
                 android:layout_width="wrap_content"
@@ -113,31 +97,9 @@
                 android:id="@+id/fx06"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Perfect" />          
-                   
-            <Button
-               android:id="@+id/fx12"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Sudden death" />
+                android:text="Perfect" />
            
            <!-- ITEMS -->
-           <RelativeLayout
-        	android:id="@+id/itemslabel"
-        	android:layout_width="match_parent"
-        	android:layout_height="wrap_content"
-        	android:background="#F00"
-        	android:gravity="center" >
-        
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_margin="5dp"
-               android:text="Items"
-               android:textColor="#FFF"
-               android:textSize="15sp" />
-        </RelativeLayout> 
-           
            <Button
                 android:id="@+id/fx07"
                 android:layout_width="wrap_content"
@@ -166,158 +128,7 @@
                 android:id="@+id/fx11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Wear off" />    
-           
-           <Button
-               android:id="@+id/fx13"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Flight" />
-           
-           <Button
-               android:id="@+id/fx14"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Powerup Respawn" />
-           
-           <Button
-               android:id="@+id/fx15"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Protect" />
-
-           <!-- MISC -->
-           
-           <RelativeLayout
-        	android:id="@+id/misclabel"
-        	android:layout_width="match_parent"
-        	android:layout_height="wrap_content"
-        	android:background="#F00"
-        	android:gravity="center" >
-        
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_margin="5dp"
-               android:text="Miscellaneous"
-               android:textColor="#FFF"
-               android:textSize="15sp" />
-        </RelativeLayout>
-           
-           <Button
-               android:id="@+id/fx16"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Ammo Pickup" />
-           
-           <Button
-               android:id="@+id/fx17"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Armour Pickup 1" />
-           
-           <Button
-               android:id="@+id/fx18"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Armour Pickup 2" />
-           
-           <Button
-               android:id="@+id/fx19"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Weapon Pickup" />
-           
-           <Button
-               android:id="@+id/fx20"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Nightmare" />
-           
-           <!-- Weapons -->
-           
-           <RelativeLayout
-        	android:id="@+id/weaponlabel"
-        	android:layout_width="match_parent"
-        	android:layout_height="wrap_content"
-        	android:background="#F00"
-        	android:gravity="center" >
-        
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_margin="5dp"
-               android:text="Weapons"
-               android:textColor="#FFF"
-               android:textSize="15sp" />
-        </RelativeLayout>
-        
-           <Button
-               android:id="@+id/fx21"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="BFG" />
-           
-           <Button
-               android:id="@+id/fx22"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Grenade" />
-           
-           <Button
-               android:id="@+id/fx23"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Lightning" />
-           
-           <Button
-               android:id="@+id/fx24"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Machine Gun" />
-           
-           <Button
-               android:id="@+id/fx25"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Melee" />
-           
-           <Button
-               android:id="@+id/fx26"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Plasma" />
-           
-           <Button
-               android:id="@+id/fx27"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Railgun" />
-           
-           <Button
-               android:id="@+id/fx28"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Rocket Launcher" />
-           
-           <Button
-               android:id="@+id/fx29"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Shotgun" />
-           
-           <Button
-               android:id="@+id/fx30"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Change Weapon" />
-           
-           <Button
-               android:id="@+id/fx31"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="No Ammo" />
-           
+                android:text="Wear off" />
 
             <Button
                 android:id="@+id/stop"
@@ -325,6 +136,7 @@
                 android:layout_height="wrap_content"
                 android:text="Stop All"
                 android:visibility="gone" />
+            
             
           </TableLayout>
           
